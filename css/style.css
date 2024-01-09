@@ -6,6 +6,19 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.gototopbutton {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: wheat;
+  bottom:40px;
+  right: 40px;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -1013,7 +1026,7 @@ input[type=text], select, textarea {
 /*# sourceMappingURL=style.css.map */
 
 .lowcode_section {
-  background: #afbf48;
+  background: linear-gradient(130deg, #afbf48, #97a53f);
   color: #000000;
 }
 
