@@ -1459,8 +1459,19 @@ input[type=text], select, textarea {
 /* END sub_services_white section */
 
 /* START border section */
+.border_section{
+  background-color: #ffffff;
+}
+.third{
+  color:#570778
+}
+
+.fourth{
+  color:#afbf48
+}
+
 .border_section .box {
-  margin-top: 45px;
+  margin-top: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1475,7 +1486,7 @@ input[type=text], select, textarea {
 }
 
 .border_section .box .img-box {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   width: 120px;
   height: 120px;
   min-width: 120px;
@@ -1531,4 +1542,20 @@ input[type=text], select, textarea {
 
 .border_section .btn-box a:hover {
   background: #ffffff;
+}
+
+.email-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #570778;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+  
+.email-button:hover {
+  background-color: #480564;
+  color: #afbf48;
 }
