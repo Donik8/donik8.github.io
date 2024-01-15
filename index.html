@@ -44,7 +44,7 @@
 
   <body>
     <div>
-      <a class="gototopbutton" href="#">UP</a>
+      <a class="gototopbutton" href="#"><img src="images/page_up.png" alt="hexarit-logo" width="50" height:"50" /></a>
     </div>
     <div class="hero_area">
       <div class="hero_bg_box">
@@ -55,7 +55,7 @@
       <!-- header section strats -->
       <header class="header_section">
         <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container">
+          <nav id="navbar" class="navbar navbar-expand-lg custom_nav-container">
             <img src="images/hexarit-logo2.png" alt="hexarit-logo" width="50" height:"50" />
             <a class="navbar-brand" href="index.html">
               <span> Hexarit </span>
@@ -251,7 +251,7 @@
                     Megoldásaink során gyakran alkalmazunk a Microsoft Power Platform családját, 
                     ami jelentős bevetési és költségcsökkentési lehetőséget nyújt a hagyományos egyedi szoftverfejlesztéshez képest.
                   </p>
-                  <a href=""> Tovább </a>
+                  <a href="mspowerplatform.html"> Tovább </a>
                 </div>
               </div>
             </div>
@@ -426,7 +426,7 @@
             <div class="col-lg-3 col-sm-6">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/hexarit_text_border_green_1000x1000.png" class="img1" alt="" />
+                  <img src="images/hexarit_text_border2_green_1000x1000.png" class="img1" alt="" />
                 </div>
                 <div class="detail-hex">
                   <p><span>L</span>ogisztika</p>
@@ -436,7 +436,7 @@
             <div class="col-lg-3 col-sm-6">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/hexarit_text_border_green_1000x1000.png" class="img1" alt="" />
+                  <img src="images/hexarit_text_border2_green_1000x1000.png" class="img1" alt="" />
                 </div>
                 <div class="detail-hex">
                   <p><span>P</span>énzügy</p>
@@ -648,5 +648,21 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
     <!-- End Google Map -->
+    <script>
+        const nav = document.querySelector('nav');
+        let prevScrollpas = window.pageYOffset;
+
+        window.addEventListener('scroll',()=>{
+            let currentScrollPas = window.pageYOffset;
+
+            if(prevScrollpas<currentScrollPas){
+                nav.classList.add('hide');
+            }else{
+                nav.classList.remove('hide');
+            }
+
+            prevScrollpas=currentScrollPas;
+        })
+    </script>
   </body>
 </html>
