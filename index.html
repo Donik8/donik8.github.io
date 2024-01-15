@@ -523,23 +523,37 @@
           <div class="detail-box">
             <div class="contact_container">
               <form action="action_page.php">
-                <div class="col-md-6">
-                  <label for="name">*Teljes Név</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Vezeték és keresztnév..." required>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">*Teljes Név</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Vezeték és keresztnév..." required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="company">Cég</label>
+                    <input type="text" id="company" name="company" placeholder="Cégnév...">
+                  </div>
                 </div>
-
-                <div class="col-md-12">
-                  <label for="phone">Telefonszám</label>
-                  <input type="text" id="phone" name="phone" placeholder="Telefonszám...">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="phone">Telefonszám</label>
+                    <input type="text" id="phone" name="phone" placeholder="Telefonszám...">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="email">*E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail cím..." required>
+                  </div>
                 </div>
-                <div class="col-md-12">
-                  <label for="subject">Üzenet</label>
-                  <textarea id="subject" name="subject" placeholder="Kérem fejtse ki miben segíthetűnk..." style="height:150px"></textarea>
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="subject">Üzenet</label>
+                    <textarea id="subject" name="subject" placeholder="Kérem fejtse ki miben segíthetűnk..." style="height:150px"></textarea>
+                  </div>
                 </div>
-                <div class="col-md-12">
-                  <button type:"submit"> Üzenet küldése </></button>
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <button type:"submit" class="btn btn-primary"> Üzenet küldése </></button>
+                  </div>
                 </div>
-                
               </form>
             </div>
           </div>
@@ -567,7 +581,7 @@
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span> +36 30 491 7031 </span>
                 </a>
-                <a href="">
+                <a href=mailto:info@hexarit.com"">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span> info@hexarit.com </span>
                 </a>
