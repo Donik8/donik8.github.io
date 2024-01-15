@@ -805,8 +805,8 @@ a{
 /*contact section start */
 
 .contact_section {
-  background: #afbf48;
-  color: #000000;
+  background: linear-gradient(130deg,#9fb60f, #afbf48);
+  color: #570778;
 }
 
 .contact_section h1 span{
@@ -865,10 +865,11 @@ input[type=text], select, textarea {
 
 /* Add a background color and some padding around the form */
 .contact_container {
-  border-radius: 5px;
+  border-radius: 10px;
   color: #ffffff;
   background: linear-gradient(130deg, #570778, #480564);
   padding: 20px;
+  box-shadow: 13px 13px 20px #4b4a4a;
 }
 /* contact section end
 
@@ -1244,8 +1245,8 @@ input[type=text], select, textarea {
 
 
 
-/* start sub_services_main section */
-.sub_services_main_section .box {
+/* START sub_services_section section */
+.sub_services_section .box {
   margin-top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1260,7 +1261,7 @@ input[type=text], select, textarea {
   text-align: center;
 }
 
-.sub_services_main_section .box .img-box {
+.sub_services_section .box .img-box {
   margin-bottom: 20px;
   width: 120px;
   height: 120px;
@@ -1279,22 +1280,22 @@ input[type=text], select, textarea {
   align-items: center;
 }
 
-.sub_services_main_section .box .img-box img {
+.sub_services_section .box .img-box img {
   width: 55px;
   height: auto;
-  fill: #ffffff;
+  fill: #570778
 }
 
-.sub_services_main_section .box h5 {
+.sub_services_section .box h5 {
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.sub_services_main_section .box p {
+.sub_services_section .box p {
   margin-bottom: 0;
 }
 
-.sub_services_main_section .btn-box {
+.sub_services_section .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1304,10 +1305,10 @@ input[type=text], select, textarea {
   margin-top: 45px;
 }
 
-.sub_services_main_section .btn-box a {
+.sub_services_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background: #ffffff;
+  background: linear-gradient(130deg, #570778, #480564);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -1315,11 +1316,10 @@ input[type=text], select, textarea {
   border: none;
 }
 
-.sub_services_main_section .btn-box a:hover {
-  background: #ffffff;
+.sub_services_section .btn-box a:hover {
+  background: linear-gradient(130deg, #570778, #480564);
 }
-
-/* END sub_services_main section */
+/* END sub_services section */
 
 
 /* START sub_services_purple section */

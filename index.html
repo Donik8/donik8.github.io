@@ -44,7 +44,7 @@
 
   <body>
     <div>
-      <a class="gototopbutton" href="#"><img src="images/page_up.png" alt="hexarit-logo" width="50" height:"50" /></a>
+      <a class="gototopbutton" href="#"><img src="images/page_up_2.png" alt="hexarit-logo" width="50" height:"50" /></a>
     </div>
     <div class="hero_area">
       <div class="hero_bg_box">
@@ -502,46 +502,51 @@
 
     <section id="contact_section" class="contact_section layout_padding">
       <div class="container">
-      <div class="heading_container heading_center">
-          <h2>Lépjen velünk kapcsolatba</h2>
+        <div class="heading_container heading_center">
+          <h2>Kapcsolat</h2>
+          <br>
       </div>
       <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-5">
             <div>
-              <h2>Hívjon vagy írjon még ma!</h2>
-              <a href="mailto:demo@gmail.com" class="email-button">+36 30 123 33 33</a>
-              <a href="mailto:demo@gmail.com" class="email-button">demo@gmail.com</a>
+              <h1>Lépjen velünk kapcsolatba!</h1>
+              <br>
+              <div>
+                <a href="mailto:demo@gmail.com" class="email-button">+36 30 123 33 33</a>
+                <a href="mailto:demo@gmail.com" class="email-button">demo@gmail.com</a>
+              </div>
+              
+              <br>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-7">
           <div class="detail-box">
             <div class="contact_container">
               <form action="action_page.php">
                 <div class="col-md-6">
-                  <label for="name">Teljes Név</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Vezeték és keresztnév...">
+                  <label for="name">*Teljes Név</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Vezeték és keresztnév..." required>
                 </div>
-                <div class="col-md-6">
-                  <label for="email">Email cím</label>
-                  <input type="text" id="email" name="email" placeholder="Email cím...">
-                </div>
-                <label for="phone">Telefonszám</label>
-                <input type="text" id="phone" name="phone" placeholder="Telefonszám...">
 
-                <label for="subject">Üzenet</label>
-                <textarea id="subject" name="subject" placeholder="Kérem fejtse ki miben segíthetűnk..." style="height:200px"></textarea>
-            
+                <div class="col-md-12">
+                  <label for="phone">Telefonszám</label>
+                  <input type="text" id="phone" name="phone" placeholder="Telefonszám...">
+                </div>
+                <div class="col-md-12">
+                  <label for="subject">Üzenet</label>
+                  <textarea id="subject" name="subject" placeholder="Kérem fejtse ki miben segíthetűnk..." style="height:150px"></textarea>
+                </div>
+                <div class="col-md-12">
+                  <button type:"submit"> Üzenet küldése </></button>
+                </div>
+                
               </form>
             </div>
-              <a href=""> Üzenet küldése </a>
           </div>
           </div>
       </div>
       </div>
   </section>
-
-
-
     <!-- end contact section-->
 
 
@@ -556,15 +561,15 @@
               <div class="contact_link_box">
                 <a href="">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span> Location </span>
+                  <span> Innovention Kft. </span>
                 </a>
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
-                  <span> Call +01 1234567890 </span>
+                  <span> +36 30 491 7031 </span>
                 </a>
                 <a href="">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span> demo@gmail.com </span>
+                  <span> info@hexarit.com </span>
                 </a>
               </div>
             </div>
@@ -589,9 +594,8 @@
             <div class="info_detail">
               <h4>Információ</h4>
               <p>
-                necessary, making this the first true generator on the Internet.
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful
+                Low-code és egyedi fejlesztésű megoldások üzleti és ipari folyamatok mendzselésére. Szoftverfejlesztés, Power Platform fejlesztés, 
+                BI megoldások és adatbázis szolgálatások egy kézből.
               </p>
             </div>
           </div>
@@ -599,20 +603,24 @@
             <div class="info_link_box">
               <h4>Hexarit</h4>
               <div class="info_links">
-                <a class="active" href="index.html"> Kezdőlap </a>
-                <a class="" href="about.html"> Rólunk </a>
-                <a class="" href="service.html"> Szolgáltatásaink </a>
-                <a class="" href="why.html"> Kapcsolat </a>
+                <a class="active" href="index.html#about_section"> Rólunk </a>
+                <a class="" href="index.html#sourvice_section"> Szolgáltatásaink </a>
+                <a class="" href="index.html#case_section"> Esettanulmányok </a>
+                <a class="" href="index.html#contact_section"> Kapcsolat </a>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 info_col">
-            <h4>Subscribe</h4>
-            <form action="#">
-              <input type="text" placeholder="Enter email" />
-              <button type="submit">Subscribe</button>
-            </form>
+            <h4>Szolgáltatásaink</h4>
+            <div class="info_links">
+              <a class="active" href="index.html#about_section"> Alkalmazásfejlesztés </a>
+              <a class="" href="index.html#sourvice_section"> Ipari digitalizáció </a>
+              <a class="" href="index.html#case_section"> Folyamatautomatizálás </a>
+              <a class="" href="mspowerplatform.html"> MS Power Platform fejlesztés </a>
+              <a class="" href="index.html#case_section"> Adatbázis szolgáltatások </a>
+              <a class="" href="index.html#contact_section"> IT tanácsadás </a>
+            </div>
           </div>
         </div>
       </div>
