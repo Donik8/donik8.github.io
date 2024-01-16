@@ -572,7 +572,7 @@ nav.hide{
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #570778;
+  /*border: 5px solid #570778;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -585,7 +585,7 @@ nav.hide{
 }
 
 .why_section .box .img-box img {
-  width: 55px;
+  width: 150px;
   height: auto;
   fill: #570778
 }
