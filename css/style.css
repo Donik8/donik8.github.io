@@ -1579,3 +1579,8 @@ input[type=email], select, textarea {
   background-color: #480564;
   color: #afbf48;
 }
+
+.background {
+  background:url("images/about-img.jpg");
+  position: relative;
+}
