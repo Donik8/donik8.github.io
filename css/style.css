@@ -78,6 +78,8 @@ html {
   text-align: center;
 }
 
+
+
 a,
 a:hover,
 a:focus {
@@ -728,7 +730,7 @@ nav.hide{
   align-items: center;
   text-align: center;
   margin-top: 45px;
-  background-color: #570778;
+  background-color: #f8f8f9;
   padding: 20px;
   border-radius: 5px;
 }
@@ -743,17 +745,71 @@ nav.hide{
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  width: 125px;
-  min-width: 200px;
-  height: 200px;
+  width: 90%;
+  min-width: 90%;
+  height: 90%;
   margin-bottom: 15px;
 }
 
-.case_section .box .img-box img {
-  max-width: 200%;
+.case_section .box-ref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 45px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.case_section .box-ref .img-box-ref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 50%;
+  min-width: 50%;
+  height: 90%;
+  margin-bottom: 15px;
+}
+
+.case_section .box-ref .img-box-ref img {
+  max-width: 100%;
   max-height: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.case_section .box .img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.case_section .box .detail-box h6 {
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.case_section .box .detail-box p {
+  color: #000000;
+  font-style: italic;
+  
 }
 
 .case_section .box .detail-box h5 {
@@ -1281,6 +1337,26 @@ input[type=email], select, textarea {
   text-align: center;
 }
 
+.sub_services_section h1 {
+	
+	color: #9fb60f;
+	font-weight: bold;
+}
+.sub_services_section h3 {
+	
+	color: #9fb60f;
+	font-weight: bold;
+	
+}
+
+.sub_services_section h4 {
+	
+	color: #9fb60f;
+	font-weight: bold;
+	
+}
+
+
 .sub_services_section .box .img-box {
   margin-bottom: 20px;
   width: 120px;
@@ -1404,6 +1480,10 @@ input[type=email], select, textarea {
   align-items: center;
 }
 
+.sub_services_green .img-box {
+  text-align: center;
+}
+
 .sub_services_green .img-box img {
   max-width: 100%;
 }
@@ -1447,6 +1527,10 @@ input[type=email], select, textarea {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.sub_services_white .img-box {
+  text-align: center;
 }
 
 .sub_services_white .img-box img {
@@ -1567,6 +1651,8 @@ input[type=email], select, textarea {
 .email-button {
   display: inline-block;
   padding: 10px 20px;
+  margin-right: 15px;
+  margin-top: 15px;
   background-color: #570778;
   color: #ffff;
   text-decoration: none;

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/hexarit-logo2.png" type="" />
+
+    <title>Hexarit</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--owl slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div>
+      <a class="gototopbutton" href="#"><img src="images/page_up.png" alt="hexarit-logo" width="50" height:"50" /></a>
+    </div>
+    <div class="hero_area">
+      <div class="hero_bg_box">
+        <div class="bg_img_box">
+        </div>
+      </div>
+
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav id="navbar" class="navbar navbar-expand-lg custom_nav-container">
+            <img src="images/hexarit-logo2.png" alt="hexarit-logo" width="50" height:"50" />
+            <a class="navbar-brand" href="index.html">
+              <span> Hexarit </span>
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about_section">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#service_section">Szolgáltatásaink</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#case_section">Esettanulmányok</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contact_section">Kapcsolat</a>
+                </li>
+                </form>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+
+    <!-- Application development header -->
+    <section class="sub_services_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h1><span class="second"> Ipari digitalizáció</span> -  Ipar 4.0</h1>
+        </div>
+        <div class="border_container">
+          <div class="box">
+            <div class="img-box2">
+              <img src="images/powerplatform_white&green_1000x1000.png" alt="" width="200" height="200"/>
+            </div>
+            <br>
+            <br>
+            <div class="detail-box">
+              <h4>Termelés monitorozás | Ipari szoftvefejlesztés | Adatgyűjtés és vizualizáció</h4>
+            </div>
+            <div class="img-box2">
+              <a href="#low-code_alkalmazasfejlesztes"><img src="images/arrow_down_green_1000x1000.png" alt="" width="100" height="100"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end application development header -->
+
+    <!-- low-code application development -->
+    <section id="low-code_alkalmazasfejlesztes" class="sub_services_green layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Termelés monitorozás</h2>
+          <p>
+            Élő gép és termelés felügyelet az ipar minden területén.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/hexarit-logo2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <h3>Áttekintés</h3>
+              <p>
+                A gyártó vállalatoknál a legfontosabb operatív feladat a darabszámok pontos teljesítése és a megfelelő minőség biztosítása.
+				Ahhoz, hogy ezt követni lehessen, a digitális alapú termelés monitorozás a legjobb út, melynek segítésgével rugalmasan követhető
+				a gyártási paraméterek és célok alakulása.
+              </p>
+              <h3>Előnyök</h3>
+              <p>
+				<ul>
+					<li>Fokozatosan kiépíthető, így kisebb beruházással is eredményt lehet elérni.</li>
+					<li>Folyamatos monitozási lehetőség, akár élő adatok megjelenítése.</li>
+					<li>Az adatok tárlásával hosszútávú statisztikák készíthetők.</li>
+					<li>Távolról monitorozhatóak a gyártási paraméterek.</li>
+				</ul>  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end low-code application development -->
+
+    <!-- Unique application development -->
+    <section id="egyedi_alkalmazasfejlesztes"  class="sub_services_white layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Ipari szoftverfejlesztés</h2>
+          <p>
+            Ipari számítógép, PLC, és HMI programozás
+          </p>
+        </div>
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="detail-box">
+              <h3>Áttekintés</h3>
+              <p>
+                A PLC-k és ipari számítógépek termelésben történő használata ma már elengedhetetlen, minden gyártóeszköz tartalmaz márvalamilyen szintű vezérlést.
+				Míg a PLC-k és HMI-k programozása jellemzően standard és gyártói eszközökkel történik, az ipari számítógépek programozása sokkal sokrétűbb, és az
+				adott feladat határozza meg.
+              </p>
+              <h3>Előnyök</h3>
+              <p>
+				<ul>
+					<li>Programozható vezérléssel a berendezések rugalmasabban használhatóak.</li>
+					<li>A vezérléssel ellátott gépekről való adatgyűjtés és a gépek monitorozása a termelés monitorozás alapja.</li>
+				</ul>  
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/hexarit-logo2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unique application development -->
+    <section id="egyedi_alkalmazasfejlesztes"  class="sub_services_purple layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h2>Ipar 4.0</h2>
+          <p>
+            Az ipar digitalizációja új lehetőségeket nyit minden vállalkozás számára
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/hexarit-logo2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <h3>Áttekintés</h3>
+              <p>
+                Az ipar 4.0 kifejezéssel már szinte minden szakmai újságban és eseményen lehet találkozni, és az elmúlt évek egyik legizgalmasabb iparági trendjét, az ipar digitalizációját foglalja magában.
+				Mára már jellemzően nem csak a nagy vállalatok, hanem a kisebb cégek is jelentőslépéseket tettek a digitalizált,és automatizált működés felé,és már elengedhetetlen tényező a versenyképességhez.
+              </p>
+              <h3>Előnyök</h3>
+              <p>
+				<ul>
+					<li>Széleskörű digitalizációs és automatizációs lehetőségek.</li>
+					<li>Versenyképesség és hatékonyság jelentős növkedése.</li>
+					<li>Vállalat optimalizálz működésének elősegítése.</li>
+				</ul>  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end unique application development -->
+
+    <!-- border section -->
+    <section class="border_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center">
+          <h1> Pörgesse fel a  <span class="third"><b>digitális</b></span>  transzformációt</h1>
+        </div>
+        <br>
+        <div class="border_container">
+          <div class="box">
+            <div class="img-box2">
+              <img src="images/powerplatform_border_black&purple_8000x1000.png" alt="" width="800" height="100"/>
+            </div>
+            <br>
+            <div class="detail-box">
+              <h2> a <span class="fourth"><b>Hexarit</b></span> alkalmazásaival</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end border section -->
+
+    <!-- Data collection and evaluation -->
+    <section class="sub_services_green layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="img-box">
+              <img src="images/hexarit-logo2.png" Height="300" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="detail-box">
+              <h3>Automatizált adatgyűjtés és kiértékelés</h3>
+              <p>
+                A vállalatok működése során, szektrotól függetlenül mára elengedhetetlen a versenyképes
+				működéshez az üzleti információlk és adatok visszgyűjtése, és a visszagyűjtött adatok
+				kiértékelése.
+              </p>
+              <p>
+                A digitális transzformáció egyik kulcsa, hogy a cégek az adatokat értsék és használni tudják,
+				ebben segítenek a Hexarit alkalmazásai.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Data collection and evaluation -->
+
+    <!-- Data collection and evaluation -->
+    <section class="sub_services_white layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="detail-box">
+              <h3>Adatvizualizáció</h3>
+              <p>
+                A gyújtött adatokhoz való egyszerű hozzáférés kiemelt fontosságú az adatalapú alkalmazások esetén,
+				hogy az ügyfeleknek pár kattintással elérhető legyenek az adatok és akár valós idejű követéssel
+				intézkedéseket és döntéseket lehessen hozni.
+              </p>
+              <p>
+                Az adatvizualizáció során a funkcionalitás mellett kiemelt figyelmet fordítunk az esztétikus megjelenésre,
+				és a felhasználóbarát működésre.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="img-box">
+              <img src="images/hexarit-logo2.png" Height="300" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Data collection and evaluation -->
+
+    <!-- Data collection and evaluation -->
+    <section class="sub_services_purple layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="img-box">
+              <img src="images/hexarit-logo2.png" Height="300" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="detail-box">
+              <h3>Adatbázis kezelés</h3>
+              <p>
+                Az adatbázisok helyes struktúrálása, továbbá az adatok és táblák folyamatos karbantartása
+				a sikeres fejlesztés egyik kulcsa, melynek a termék életciklusára teljes egészében kihatása van,
+				a fejlesztéstől a projekt utókövetéséig.
+              </p>
+              <p>
+                A Hexarit kiemelt figyelmet fordít minden applikációfejlesztés során a projektek átadás
+				utáni karbantartására és támogatására, melynek szerves részét képezi az applikációhoz köthető
+				adatbázisok karbantartása és szükség esetén tisztítása.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Data collection and evaluation -->
+
+    <!-- start contact section-->
+
+    <section id="contact_section" class="contact_section layout_padding">
+      <div class="container">
+      <div class="heading_container heading_center">
+          <h2>Lépjen velünk kapcsolatba</h2>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+          <div class="img-box">
+              <img src="images/lowcode.png" alt="" />
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="detail-box">
+            <div class="contact_container">
+              <form action="action_page.php">
+            
+                <label for="name">Teljes Név</label>
+                <input type="text" id="fname" name="name" placeholder="Vezeték és keresztnév...">
+
+                <label for="email">Email cím</label>
+                <input type="text" id="fname" name="email" placeholder="Email cím...">
+
+                <label for="phone">Telefonszám</label>
+                <input type="text" id="fname" name="phone" placeholder="Telefonszám...">
+
+                <label for="subject">Üzenet</label>
+                <textarea id="subject" name="subject" placeholder="Kérem fejtse ki miben segíthetűnk..." style="height:200px"></textarea>
+            
+              </form>
+            </div>
+              <a href=""> Üzenet küldése </a>
+          </div>
+          </div>
+      </div>
+      </div>
+  </section>
+
+
+
+    <!-- end contact section-->
+
+
+    <!-- info section -->
+
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 info_col">
+            <div class="info_contact">
+              <h4>Kapcsolat</h4>
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span> Location </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span> Call +01 1234567890 </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span> demo@gmail.com </span>
+                </a>
+              </div>
+            </div>
+            <!--
+            <div class="info_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+-->
+          </div>
+          <div class="col-md-6 col-lg-3 info_col">
+            <div class="info_detail">
+              <h4>Információ</h4>
+              <p>
+                necessary, making this the first true generator on the Internet.
+                It uses a dictionary of over 200 Latin words, combined with a
+                handful
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2 mx-auto info_col">
+            <div class="info_link_box">
+              <h4>Hexarit</h4>
+              <div class="info_links">
+                <a class="active" href="index.html"> Kezdőlap </a>
+                <a class="" href="about.html"> Rólunk </a>
+                <a class="" href="service.html"> Szolgáltatásaink </a>
+                <a class="" href="why.html"> Kapcsolat </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 info_col">
+            <h4>Subscribe</h4>
+            <form action="#">
+              <input type="text" placeholder="Enter email" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end info section -->
+
+    <!-- footer section -->
+    <section class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Hexarit</a>
+        </p>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <!-- jQery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    ></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- End Google Map -->
+    <script>
+        const nav = document.querySelector('nav');
+        let prevScrollpas = window.pageYOffset;
+
+        window.addEventListener('scroll',()=>{
+            let currentScrollPas = window.pageYOffset;
+
+            if(prevScrollpas<currentScrollPas){
+                nav.classList.add('hide');
+            }else{
+                nav.classList.remove('hide');
+            }
+
+            prevScrollpas=currentScrollPas;
+        })
+    </script>
+  </body>
+</html>
