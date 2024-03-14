@@ -10,12 +10,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="Low-code alkalmazások, Egyedi applikációfejlesztés, applikációfejlesztés, Power Apps, adatvezérelt applikáció" />
+    <meta name="description" content="Low-code és egyedi alkalmazásfejlesztés kis és közepes komplexitású alkalmazások fejlesztéséhez." />
+    <meta name="author" content="Hexarit - egyedi alkalmazásfejlesztés" />
     <link rel="shortcut icon" href="images/hexarit-logo2.png" type="" />
 
-    <title>Hexarit</title>
+    <title>Hexarit - Alkalmazásfejlesztés</title>
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -149,10 +149,10 @@
                 <h3>Előnyök</h3>
                 <p>
           <ul>
-            <li>Gyors fejlesztési idő, nem igényel blablabla</li>
+            <li>Gyors fejlesztési idő</li>
             <li>Költséghatékony megoldás kis- és közepes komplexitású alkalmazásokhoz</li>
-            <li>Könnyű integrálhatóság, a futtatási környezethez egyszerűen elérhető</li>
-            <li>Szoftverkönyezet karbantartása legtöbb esetben szolgáltatóáltal biztosított</li>
+            <li>Könnyű integrálhatóság, a futtatási környezet egyszerűen elérhető</li>
+            <li>Szoftverkönyezet karbantartása legtöbb esetben szolgáltató által biztosított</li>
           </ul>  
                 </p>
               </div>
@@ -179,13 +179,13 @@
                 <p>
                   Komplex alkalmazások és rendszerek esetén gyakran egyedi megoldásokra van szükség, hogy a lehető legmagasabb szintű funkcionalitást lehessen elérni. 
                   A Hexarit csapata többéves tapasztalattal rendelkezik a webes és szkriptnyelv alapú megoldások terén. Alkalmazásainkat végigkísérjük a teljes életúton,
-                  a projekt tervezéstől az átadás utáni támogatásig éskarbantartásig.
+                  a projekt tervezéstől az átadás utáni támogatásig és karbantartásig.
                 </p>
                 <h3>Előnyök</h3>
                 <p>
                   <ul>
                     <li>Komplex feladatokra is megoldást nyújt</li>
-                    <li>Széleskörű eszközkészlet áll rendelkezésre, hogy az új applikációk a meglevőkhöz minél jobban integrálhatóak legyenek.</li>
+                    <li>Széleskörű eszközkészlet áll rendelkezésre, hogy az új applikációk a már meglevőkhöz minél jobban integrálhatóak legyenek</li>
                     <li>Egyedi frontend and backend megoldások</li>
                   </ul>  
                 </p>
@@ -211,7 +211,7 @@
           <div class="border_container">
             <div class="box">
               <div class="img-box2">
-                <img src="images/powerplatform_border_black&purple_8000x1000.png" alt="" width="800" height="100"/>
+                <img src="images/alkalmazasfejlesztes_border_black&purple_4000x1000.png" alt="" width="800" height="100"/>
               </div>
               <br>
               <div class="detail-box">
@@ -236,8 +236,8 @@
               <div class="detail-box">
                 <h3>Automatizált adatgyűjtés és kiértékelés</h3>
                 <p>
-                  A vállalatok működése során, szektrotól függetlenül mára elengedhetetlen a versenyképes
-                  működéshez az üzleti információlk és adatok visszgyűjtése, és a visszagyűjtött adatok
+                  A vállalatok működése során, mára szektortól függetlenül elengedhetetlen a versenyképes
+                  működéshez az üzleti információk és adatok visszgyűjtése, és az így kapott adatok
                   kiértékelése.
                 </p>
                 <p>
@@ -384,15 +384,15 @@
               <div class="contact_link_box">
                 <a href="">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span> Location </span>
+                  <span> Innovention Kft. </span>
                 </a>
                 <a href="">
                   <i class="fa fa-phone" aria-hidden="true"></i>
-                  <span> Call +01 1234567890 </span>
+                  <span> +36 30 491 7031 </span>
                 </a>
-                <a href="">
+                <a href=mailto:info@hexarit.com"">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span> demo@gmail.com </span>
+                  <span> info@hexarit.com </span>
                 </a>
               </div>
             </div>
@@ -417,9 +417,8 @@
             <div class="info_detail">
               <h4>Információ</h4>
               <p>
-                necessary, making this the first true generator on the Internet.
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful
+                Low-code és egyedi fejlesztésű megoldások üzleti és ipari folyamatok mendzselésére. Szoftverfejlesztés, Power Platform fejlesztés, 
+                BI megoldások és adatbázis szolgálatások egy kézből.
               </p>
             </div>
           </div>
@@ -428,19 +427,23 @@
               <h4>Hexarit</h4>
               <div class="info_links">
                 <a class="active" href="index.html"> Kezdőlap </a>
-                <a class="" href="about.html"> Rólunk </a>
-                <a class="" href="service.html"> Szolgáltatásaink </a>
-                <a class="" href="why.html"> Kapcsolat </a>
+                <a class="" href="index.html#sourvice_section"> Szolgáltatásaink </a>
+                <a class="" href="index.html#case_section"> Referenciák </a>
+                <a class="" href="index.html#contact_section"> Kapcsolat </a>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 info_col">
-            <h4>Subscribe</h4>
-            <form action="#">
-              <input type="text" placeholder="Enter email" />
-              <button type="submit">Subscribe</button>
-            </form>
+            <h4>Szolgáltatásaink</h4>
+            <div class="info_links">
+              <a class="active" href="index.html#about_section"> Alkalmazásfejlesztés </a>
+              <a class="" href="index.html#sourvice_section"> Ipari digitalizáció </a>
+              <a class="" href="index.html#case_section"> Folyamatautomatizálás </a>
+              <a class="" href="mspowerplatform.html"> MS Power Platform fejlesztés </a>
+              <a class="" href="index.html#case_section"> Adatbázis szolgáltatások </a>
+              <a class="" href="index.html#contact_section"> IT tanácsadás </a>
+            </div>
           </div>
         </div>
       </div>

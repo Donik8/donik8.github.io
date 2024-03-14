@@ -10,7 +10,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Site Metas -->
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="Hexarit, ipari szoftverfejlesztés, low-code alkalmazások, Power Platform, Excel, Access, adatbázisok" />
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link rel="shortcut icon" href="images/hexarit-logo2.png" type="" />
@@ -117,7 +117,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="img-box">
-                      <img src="images/hexarit-logo2.png" alt="" />
+                      <img src="images/Main_Ipari_IT.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -138,7 +138,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="img-box">
-                      <img src="images/hexarit-logo2.png" alt="" />
+                      <img src="images/Main_PowerPlatform.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -189,8 +189,7 @@
           <div class="heading_container heading_center">
             <h2>A <span>Szolgáltatásaink</span></h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration
+              Szolgáltatásaink fő fúkusza az ipari és üzleti alkalmazások és azok környezetének kialakításához kapcsolódik, ezzel segítve a vállalatok hatékonyságát és a mindennapi folyamatokat.
             </p>
           </div>
           <div class="row">
@@ -202,10 +201,9 @@
                 <div class="detail-box">
                   <h5>Alkalmazásfejlesztés</h5>
                   <p>
-                    Egyedi szoftverfejlesztés partnereink
-                    igényeire szabva, 10+ éves ipari és IT tapasztalat.
+                    Low-code és egyedi szoftverfejlesztés partnereink igényeire szabva, 10+ éves ipari és IT tapasztalattal a mindennapi munka segítésére, a folyamatok optimalizációjára, és a hatékonyság növelésére.
                   </p>
-                  <a href="applicationdevelopment.html"> Tovább </a>
+                  <a href="szolgaltats_alkalmazasfejlesztes.html"> Tovább </a>
                 </div>
               </div>
             </div>
@@ -228,13 +226,12 @@
             <div class="col-md-4">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/process_black&purple_1000x1000.png" alt="" />
+                  <img src="images/excel_black&purple_1000x1000.png" alt="" />
                 </div>
                 <div class="detail-box">
-                  <h5>Excel</h5>
+                  <h5>Excel és Access</h5>
                   <p>
-                    Gyakran ismétlődő manuális feladatok automatizálása Power Automate segítségével. 
-                    A beépített mesterséges intelligencia és előre deffinált templatek segítenek a válalata hatékonyságának növelésében.
+                    Az Excelben és Accessben fejlesztett VBA alapú alkalmazások könnyű elérhetőségüknek és népszerűségüknek köszönhetően, a mai napig az egyik legcélszerűbb módja az egyszerűbb alkalmazások fejlesztésének.
                   </p>
                   <a href="szolgaltatas_excel.html"> Tovább </a>
                 </div>
@@ -260,13 +257,12 @@
             <div class="col-md-4">
               <div class="box">
                 <div class="img-box">
-                  <img src="images/database_black&purple_1000x1000.png" alt="" />
+                  <img src="images/sharepoint_black&purple_1000x1000.png" alt="" />
                 </div>
                 <div class="detail-box">
                   <h5>SharePoint</h5>
                   <p>
-                    Az adatbázisok professzionális kezelése a modern cégek működésének lapjai, az adatstratégiától az adatvizualizációig.
-                    A Hexarit komplex megoldásokat kínál az adatkezelés számos területére, az adat hasznosításának lehetőséeire főkuszálva.
+                    A SharePoint lehetőségei, mint például a dokumentumkezelés, a projektmanagement, vagy acsoportmunka és kommunikáció elősegítése, a cégek mindennapi életének egyik leghasznosabb kiegészítője.
                   </p>
                   <a href="szolgaltatas_sharepoint.html"> Tovább </a>
                 </div>
@@ -307,8 +303,11 @@
         <div class="row">
           <div class="col-md-6">
             <div class="img-box">
-              <img src="images/hexarit-logo2.png" alt="" />
+              <img src="images/hexarit-logo2.png" alt="" width="400px" height="400px"/>
             </div>
+            <div class="detail-box">
+              <h3>Ipari Digitalizáció - Digitáli Ipar</h3>
+            </div> 
           </div>
           <div class="col-md-6">
             <div class="detail-box">
@@ -345,12 +344,8 @@
             <div class="detail-box">
               <h5>Stabil háttér</h5>
               <p>
-                Incidunt odit rerum tenetur alias architecto asperiores omnis
-                cumque doloribus aperiam numquam! Eligendi corrupti, molestias
-                laborum dolores quod nisi vitae voluptate ipsa? In tempore
-                voluptate ducimus officia id, aspernatur nihil. Tempore laborum
-                nesciunt ut veniam, nemo officia ullam repudiandae repellat
-                veritatis unde reiciendis possimus animi autem natus
+                A Hexarit csapata 2016 óta foglalkozik projekt alapú, iparközeli megoldások fejlesztésével és kivitelezésével. 
+                Partnereink között éppúgy megtalálhatóak kis cégek, mint nagy multinacionális vállalatok.
               </p>
             </div>
           </div>
@@ -361,12 +356,7 @@
             <div class="detail-box">
               <h5>Sokrétű tapasztalat</h5>
               <p>
-                Incidunt odit rerum tenetur alias architecto asperiores omnis
-                cumque doloribus aperiam numquam! Eligendi corrupti, molestias
-                laborum dolores quod nisi vitae voluptate ipsa? In tempore
-                voluptate ducimus officia id, aspernatur nihil. Tempore laborum
-                nesciunt ut veniam, nemo officia ullam repudiandae repellat
-                veritatis unde reiciendis possimus animi autem natus
+                A csapat nem pusztán IT szakemberekből áll. Munkatársaink széleskörű ipari és üzleti tapasztalattal rendelkeznek, melyet a projektek kivitelezése során tudunk kamatoztatni, így fejlesztjük az alkalmazásokat.
               </p>
             </div>
           </div>
@@ -377,12 +367,8 @@
             <div class="detail-box">
               <h5>Személyreszabott megoldások</h5>
               <p>
-                Incidunt odit rerum tenetur alias architecto asperiores omnis
-                cumque doloribus aperiam numquam! Eligendi corrupti, molestias
-                laborum dolores quod nisi vitae voluptate ipsa? In tempore
-                voluptate ducimus officia id, aspernatur nihil. Tempore laborum
-                nesciunt ut veniam, nemo officia ullam repudiandae repellat
-                veritatis unde reiciendis possimus animi autem natus
+                Legfőbb értékünk, hogy a partnereink igényeit szem előtt tartva olyan egyedi alkalmazásokat fejlesztünk, 
+                amik jól illeszkednek a partnereink vállalati infrastruktúrájába.
               </p>
             </div>
           </div>

@@ -10,12 +10,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="MS Power Platform, Power Autamate automatizálás, Powe Apps applikációfejelsztés, PowerBI adatvizualizáció" />
+    <meta name="description" content="A Power Platform szoftvercsalád segítségével könnyen el tudnak indulni a cégek a digitalizáció útján, legyne szó adatvizualizációról, folyamatautomatizálásról, vagy alkalmazásfejlesztésről." />
+    <meta name="author" content="Hexarit - egyedi alkalmazásfejlesztés" />
     <link rel="shortcut icon" href="images/hexarit-logo2.png" type="" />
 
-    <title>Hexarit</title>
+    <title>Hexarit - MS Power Platform fejlesztés</title>
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -188,7 +188,7 @@
           </div>
           <div class="col-md-6">
             <div class="img-box">
-              <img src="images/hexarit-logo2.png" alt="" />
+              <img src="images/mspp_powerapps.png" alt="" />
             </div>
           </div>
         </div>
